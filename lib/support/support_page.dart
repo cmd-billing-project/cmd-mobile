@@ -3,7 +3,7 @@ import 'package:cmd_mobile/services/issue_service.dart';
 import 'package:cmd_mobile/services/token_storage.dart';
 import 'package:cmd_mobile/support/components/contact_dialog.dart';
 import 'package:cmd_mobile/support/components/create_issue_dialog.dart';
-import 'package:cmd_mobile/support/components/issue_cart.dart';
+import 'package:cmd_mobile/support/components/issue_card.dart';
 import 'package:cmd_mobile/support/components/support_alert.dart';
 import 'package:cmd_mobile/support/components/support_empty_state.dart';
 import 'package:cmd_mobile/support/components/support_header.dart';
