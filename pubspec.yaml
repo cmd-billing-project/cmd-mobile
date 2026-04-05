@@ -2,7 +2,7 @@ name: cmd_mobile
 description: "A new Flutter project."
 publish_to: "none"
 
-version: 1.0.0+7
+version: 1.0.0+9
 
 environment:
   sdk: ^3.9.2
@@ -27,6 +27,14 @@ dev_dependencies:
     sdk: flutter
 
   flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.14.3
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/logo.jpg"
+  adaptive_icon_background: "#FFFFFF"
+  adaptive_icon_foreground: "assets/logo.jpg"
 
 flutter:
   uses-material-design: true
